@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>997643939418-4p410utcj2afs303i8dcg71sj901jrua.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.997643939418-4p410utcj2afs303i8dcg71sj901jrua</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDULutobiKa4H-R6c8bnvGkkUhSeSEn8PE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>997643939418</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.matejmecka.korona</string>
+	<key>PROJECT_ID</key>
+	<string>korona-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>korona-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:997643939418:ios:79fa5a90385b7520b5b263</string>
+	<key>DATABASE_URL</key>
+	<string>https://korona-app.firebaseio.com</string>
+</dict>
+</plist>

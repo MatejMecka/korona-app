@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "997643939418",
+    "firebase_url": "https://korona-app.firebaseio.com",
+    "project_id": "korona-app",
+    "storage_bucket": "korona-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997643939418:android:b54b2140caeeaeabb5b263",
+        "android_client_info": {
+          "package_name": "com.matejmecka.korona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997643939418-246d5p0b0p1n2oo61a21j6fta55o0kv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA13HlFFetpmu4-IptMBf4iB_DV4scOfMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997643939418-246d5p0b0p1n2oo61a21j6fta55o0kv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

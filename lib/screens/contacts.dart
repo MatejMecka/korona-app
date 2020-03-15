@@ -30,7 +30,7 @@ class _ContactsPageState extends State<ContactsPage> {
 
 
   _launchCaller(value) async { 
-    if (await canLaunch(value)) {
+    if (await canLaunch('tel:${value}')) {
        await launch(value);
     } else {
       throw 'Could not launch $value';
