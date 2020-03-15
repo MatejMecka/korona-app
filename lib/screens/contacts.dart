@@ -57,7 +57,7 @@ class _ContactsPageState extends State<ContactsPage> {
               return Padding(
                 padding: EdgeInsets.all(12.0),
                 child: Text(
-                  "Во случај да ги поседувате симптомите на корона вирусот може овие броеви да ги контактирате\n", 
+                  "Во случај да ги поседувате симптомите на вирусот Корона може да ги контактирате следните броеви\n", 
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 20)
                   )

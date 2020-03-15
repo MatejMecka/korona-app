@@ -35,6 +35,7 @@ class _PreventionPageState extends State<PreventionPage> {
   Future<CoronaCounter> counter;
   List<QuestionsAndAnswers> _faq;
   _PreventionPageState(this._faq);
+  
 
   @override
   void initState() {
@@ -85,7 +86,13 @@ class _PreventionPageState extends State<PreventionPage> {
     
         },
       ), 
+
+      
       ), 
+
+
+
+
       Padding(
         padding: EdgeInsets.all(5),
         child: Text(
@@ -113,16 +120,20 @@ class _PreventionPageState extends State<PreventionPage> {
               title: Text("Треска"),
           ), 
           ListTile(
+              leading: Icon(MyFlutterApp.weak, color: Colors.black),
+              title: Text("Болка во мускулите"),
+          ),
+          ListTile(
+              leading: Icon(Icons.battery_alert, color: Colors.black),
+              title: Text("Омалаксаност"),
+          ),
+          ListTile(
               leading: Icon(MyFlutterApp.headache_1_, color: Colors.black),
               title: Text("Главоболка"),
           ), 
           ListTile(
-              leading: Icon(MyFlutterApp.nose, color: Colors.black),
-              title: Text("Течење на носот"),
-          ), 
-          ListTile(
               leading: Icon(MyFlutterApp.sore_throat, color: Colors.black),
-              title: Text("Воспалено грло"),
+              title: Text("Отежнато дишење"),
           ), 
         ],
       ),
@@ -154,7 +165,7 @@ class _PreventionPageState extends State<PreventionPage> {
           ),
           ListTile(
               leading: Icon(MyFlutterApp.hand_wash, color: Colors.black),
-              title: Text("Миете ги вашите раце често"),
+              title: Text("Мијте ги често рацете "),
           ), 
           ListTile(
               leading: Icon(Icons.group, color: Colors.black),
@@ -162,11 +173,11 @@ class _PreventionPageState extends State<PreventionPage> {
           ), 
           ListTile(
               leading: Icon(IconData(59378, fontFamily: 'MaterialIcons'), color: Colors.black,),
-              title: Text("Избегнете да го допирате вашето лице"),
+              title: Text("Избегнувајте да го допирате лицето"),
           ), 
           ListTile(
               leading: Icon(Icons.local_hospital, color: Colors.black),
-              title: Text("Побарајте медицинска помош ако ги имате овие симптоми"),
+              title: Text("Побарајте медицинска помош доколку  ги имате овие симптоми"),
           ), 
         ],
       ),

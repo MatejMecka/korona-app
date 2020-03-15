@@ -3,6 +3,7 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'contacts.dart';
 import 'info.dart';
 import 'news.dart';
+import 'statistics.dart';
 import '../models/firebase_notification_handler.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -71,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
             PreventionPage(),
             ContactsPage(),
             NewsPage(),
+            StatisticsPage()
           ],
         ),
       ), bottomNavigationBar: BottomNavyBar(
@@ -102,13 +104,13 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               activeColor: Colors.pink,
               textAlign: TextAlign.center,
-            ),/*
+            ),
             BottomNavyBarItem(
-              icon: Icon(Icons.settings),
-              title: Text('Settings'),
+              icon: Icon(Icons.map),
+              title: Text('Статистики'),
               activeColor: Colors.blue,
               textAlign: TextAlign.center,
-            ),*/
+            ),
           ],
         ),
     );

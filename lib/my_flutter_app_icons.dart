@@ -30,4 +30,5 @@ class MyFlutterApp {
   static const IconData nose = IconData(0xe803, fontFamily: _kFontFam);
   static const IconData sore_throat = IconData(0xe804, fontFamily: _kFontFam);
   static const IconData hand_wash = IconData(0xe805, fontFamily: _kFontFam);
+  static const IconData weak = IconData(0xe806, fontFamily: _kFontFam);
 }
