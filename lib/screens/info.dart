@@ -106,7 +106,7 @@ class _PreventionPageState extends State<PreventionPage> {
         children: <Widget>[
           ListTile(
               leading: Icon(MyFlutterApp.cough, color: Colors.black),
-              title: Text("Кашлица"),
+              title: Text("Сува кашлица"),
           ),
           ListTile(
               leading: Icon(MyFlutterApp.temperature, color: Colors.black),

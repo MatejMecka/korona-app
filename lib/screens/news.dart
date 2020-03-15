@@ -68,20 +68,23 @@ _calculateDate(rssDate){
   Widget build(BuildContext context) {
     return new Scaffold(
       body: Center(
-        child: ListView(
-          children: _newsObjects.map((data) => 
-              ListTile(
-                title: Text("${data.title} - ${_calculateDate(data.pubDate)}"),
-                dense: true,
-                leading: Icon(Icons.message),
-                subtitle: Text(data.description.substring(0,120) + "..."),
-                onTap: () => _launchURL(data.link),
-                trailing: Icon(Icons.keyboard_arrow_right),
-              ),
-            ).toList(),
+        child: ListView.builder(
+            itemCount: _newsObjects.length,
+            itemBuilder: (context,index){
+              return Card(
+                child: ListTile(
+                  title: Text("${_newsObjects[index].title} - ${_newsObjects[index].pubDate}"),
+                  dense: true,
+                  leading: Icon(Icons.message),
+                  subtitle: Text(_newsObjects[index].description.substring(0,120) + "..."),
+                  onTap: () => _launchURL(_newsObjects[index].link),
+                  trailing: Icon(Icons.keyboard_arrow_right),
+                ),
+              );
+            },
           ),
         ),
-    );
+      );
   }
 
 
