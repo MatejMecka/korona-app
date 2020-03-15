@@ -62,7 +62,7 @@ class _PreventionPageState extends State<PreventionPage> {
             pauseAutoPlayOnTouch: Duration(seconds: 5),
             autoPlayAnimationDuration: Duration(milliseconds: 800),
             autoPlayCurve: Curves.fastOutSlowIn,
-            items: ['Случаи во Македонија\n ${snapshot.data.Total_Cases_Mk}',"Смртни Случаеви во Македонија\n ${snapshot.data.Total_Deaths_Mk}", "Излечени Случаи во Македонија\n ${snapshot.data.Total_Recovered_Mk}"].map((i) {
+            items: ['Случаеви во Македонија\n ${snapshot.data.Total_Cases_Mk}',"Смртни случаеви во Македонија\n ${snapshot.data.Total_Deaths_Mk}", "Излечени случаеви во Македонија\n ${snapshot.data.Total_Recovered_Mk}"].map((i) {
              return Builder(
                 builder: (BuildContext context) {
                   return Container(
@@ -89,7 +89,7 @@ class _PreventionPageState extends State<PreventionPage> {
       Padding(
         padding: EdgeInsets.all(5),
         child: Text(
-        'Симптоми на Корона Вирус', 
+        'Симптоми на COVID-19', 
         style: TextStyle(
           fontWeight: FontWeight.bold, 
           fontSize: 28.0
@@ -132,7 +132,7 @@ class _PreventionPageState extends State<PreventionPage> {
       Padding(
         padding: EdgeInsets.all(5), 
         child: Text(
-        'Како да се заштите од Корона', 
+        'Како да се заштите од COVID-19', 
         style: TextStyle(
           fontWeight: FontWeight.bold, 
           fontSize: 28.0
