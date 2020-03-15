@@ -1,4 +1,4 @@
-package com.example.Korona
+package com.matejmecka.korona
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
