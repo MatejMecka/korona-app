@@ -3,7 +3,7 @@ import 'dart:convert';
 import '../models/coronaCounterModel.dart';
 
  Future<CoronaCounter> getCoronaCounter() async {
-      final http.Response response = await http.get('https://api.luckyhost.mk/');
+      final http.Response response = await http.get('https://motley-avocado.glitch.me/corona');
       if(response.statusCode == 200){
         print(response.body);
         return CoronaCounter.fromJson(json.decode(response.body));
