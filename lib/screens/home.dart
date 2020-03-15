@@ -3,7 +3,7 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'contacts.dart';
 import 'info.dart';
 import 'news.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+import '../models/firebase_notification_handler.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -33,29 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
      super.initState();
      pageController = PageController();
-     getMessage();
-     _register();
+     new FirebaseNotifications().setUpFirebase();
   }
-
-    final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-   _register() {
-    _firebaseMessaging.getToken().then((token) => print(token));
-  }
-
-  void getMessage(){
-    _firebaseMessaging.configure(
-        onMessage: (Map<String, dynamic> message) async {
-      print('on message $message');
-      setState(() => _message = message["notification"]["title"]);
-    }, onResume: (Map<String, dynamic> message) async {
-      print('on resume $message');
-      setState(() => _message = message["notification"]["title"]);
-    }, onLaunch: (Map<String, dynamic> message) async {
-      print('on launch $message');
-      setState(() => _message = message["notification"]["title"]);
-    });
-  }
-
 
   @override
   void dispose() {
