@@ -31,9 +31,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-      super.initState();
+     super.initState();
      pageController = PageController();
      getMessage();
+     _register();
   }
 
     final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
