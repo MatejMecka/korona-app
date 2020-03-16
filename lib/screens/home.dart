@@ -5,6 +5,7 @@ import 'info.dart';
 import 'news.dart';
 import 'statistics.dart';
 import '../models/firebase_notification_handler.dart';
+import 'package:firebase_analytics/observer.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);

@@ -1,16 +1,24 @@
-# Korona
+# Корона Водич / Corona Guide
+Корона Водич е апликација која информира и советува се што е во врска со Корона
 
-A new Flutter project.
+Corona Guide is an app that informs and gives advice about everything related to Corona.
 
-## Getting Started
+### Installation / Инсталација
 
-This project is a starting point for a Flutter application.
+	* To install it on your Device follow the next steps
+	* За да ја преземете на вашиот уред следете ги следните чекори
 
-A few resources to get you started if this is your first Flutter project:
+```	
+	flutter build apk --release
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+You should get a .apk file. Transfer the file to your device and install it.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Би требало да добиете .apk датотека. Префрлете ја на вашиот уред и инсталирајтеја.
+
+### Dependencies / Додатни Алатки
+	* Flutter
+	* Android Studio - For Android devices /  За Андроид уреди
+	* Xcode - For iOS devices / За iOS уреди.
+
+
