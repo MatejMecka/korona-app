@@ -39,7 +39,6 @@ class _NewsPageState extends State<NewsPage> {
     });
     super.initState();
   }
-  //getNews();
 
   _launchURL(url) async {
   if (await canLaunch(url)) {
@@ -55,12 +54,12 @@ _calculateDate(rssDate){
   var substr = formatedDay.substring(0,4);
   var moreFormatting = formatedDay.replaceAll(substr, '');
   print(moreFormatting);
-  //print(Jiffy(moreFormatting));
-  //var moreFormatting = formatedDay.replace();
-  //print(DateTime.parse(formatedDay.replace(formatedDay.substring(1,4), '')));
-  //var nesho = DateFormat("E").parse(rssDate);
-  //print(DateFormat("E, dd MM yyyy hh:mm:ss").parse(rssDate));
- // print(DateTimeFormat.format(rssDate));
+  /*print(Jiffy(moreFormatting));
+  var moreFormatting = formatedDay.replace();
+  print(DateTime.parse(formatedDay.replace(formatedDay.substring(1,4), '')));
+  var nesho = DateFormat("E").parse(rssDate);
+  print(DateFormat("E, dd MM yyyy hh:mm:ss").parse(rssDate));
+  print(DateTimeFormat.format(rssDate));*/
   return moreFormatting;
 }
 

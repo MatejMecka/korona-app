@@ -45,8 +45,6 @@ class _PreventionPageState extends State<PreventionPage> {
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body:  ListView(children: <Widget>[ Container(
@@ -86,13 +84,7 @@ class _PreventionPageState extends State<PreventionPage> {
     
         },
       ), 
-
-      
       ), 
-
-
-
-
       Padding(
         padding: EdgeInsets.all(5),
         child: Text(
@@ -182,9 +174,6 @@ class _PreventionPageState extends State<PreventionPage> {
         ],
       ),
     ), 
-
-
-
        Padding(
         padding: EdgeInsets.all(5), 
         child: Text(
@@ -196,21 +185,10 @@ class _PreventionPageState extends State<PreventionPage> {
         textAlign: TextAlign.center,
       ),
       ),
-      
-      
         _buildPanel()
-    
-
       ]
       )
     );
-
-    
-
-
-
-
-
   }
 
 Widget _buildPanel() {
