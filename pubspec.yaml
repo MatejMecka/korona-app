@@ -35,7 +35,12 @@ dependencies:
   firebase_core: ^0.4.0
   firebase_messaging: ^6.0.12
   firebase_analytics: ^5.0.11
-  webview_flutter: ^0.3.19+9
+  #webview_flutter: ^0.3.19+9
+  webview_flutter:
+    git:
+      url: https://github.com/FisherWL/plugins
+      path: packages/webview_flutter
+      ref: add-zoom
 
 dev_dependencies:
   flutter_test:

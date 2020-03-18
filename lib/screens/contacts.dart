@@ -1,7 +1,12 @@
+import 'package:Korona/models/analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:firebase_analytics/observer.dart';
 
 class ContactsPage extends StatefulWidget {
+  @override
+  get screenName => 'Contacts';
+
   ContactsPage();
 
   @override
@@ -11,7 +16,6 @@ class ContactsPage extends StatefulWidget {
 class _ContactsPageState extends State<ContactsPage> {
 
   final _contacts = <String, String>{
-  "Во Случај на нешто може овие броеви да ги контактирате": "",
   "ЦЈЗ Скопје": "+38971289614",
   "ИЈЗ Скопје": "+38978387194",
   "ЦЈЗ Велес": "+38971219278",

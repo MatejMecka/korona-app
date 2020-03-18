@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import "../models/analytics.dart";
 
-class StatisticsPage extends StatefulWidget {
+class StatisticsPage extends StatefulWidget{
   @override
   _StatisticsPageState createState() => _StatisticsPageState();
 }

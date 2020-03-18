@@ -1,3 +1,4 @@
+import 'package:Korona/models/analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../requests/newsRequests.dart';
@@ -8,6 +9,9 @@ import 'package:jiffy/jiffy.dart';
 import '../screens/home.dart';
 
 class NewsPage extends StatefulWidget {
+  @override
+  get screenName => 'News';
+
   NewsPage();
   @override
   _NewsPageState createState() => _NewsPageState();
