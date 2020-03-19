@@ -22,4 +22,5 @@ You should get a .apk file. Transfer the file to your device and install it.
 
 
 This app won't be maintained anymore, do what you want with it.
-Оваа Апликација повеќе нема да се одржува, правете што сакате со неа.
+
+Оваа апликација повеќе нема да се одржува, правете што сакате со неа.
