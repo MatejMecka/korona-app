@@ -1,4 +1,4 @@
-# Корона Водич / Corona Guide
+# Корона Водич / Corona Guide - Dead / Мртва
 Корона Водич е апликација која информира и советува се што е во врска со Корона
 
 Corona Guide is an app that informs and gives advice about everything related to Corona.
@@ -21,4 +21,5 @@ You should get a .apk file. Transfer the file to your device and install it.
 * Xcode - For iOS devices / За iOS уреди.
 
 
-
+This app won't be maintained anymore, do what you want with it.
+Оваа Апликација повеќе нема да се одржува, правете што сакате со неа.
